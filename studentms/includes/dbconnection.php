@@ -2,7 +2,7 @@
 // DB credentials.
 define('DB_HOST','localhost');
 define('DB_USER','root');
-define('DB_PASS','12345'); // your correct MySQL password
+define('DB_PASS',''); // your correct MySQL password
 define('DB_NAME','studentms'); // make sure this DB exists
 
 try {
