@@ -6,7 +6,7 @@ include('includes/dbconnection.php');
 <!doctype html>
 <html>
 <head>
-<title>GJIMT</title>
+<title>World Institute</title>
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
 <link href="css/style.css" rel="stylesheet" type="text/css"/>
@@ -47,7 +47,7 @@ include('includes/dbconnection.php');
        <div class="callbacks_container">
         <ul class="rslides" id="slider">
          <li>      
-          <h3  style="color: #c54521; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);" ><strong >GJIMT Student Mangment System</strong></h3>        
+          <h3  style="color: #c54521; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);" ><strong >World Institute Student Mangment System</strong></h3>        
           <div class="readmore">
           <a href="user/login.php" style="border-radius: 250px">Student Login<i class="glyphicon glyphicon-menu-right"> </i></a>
           </div>

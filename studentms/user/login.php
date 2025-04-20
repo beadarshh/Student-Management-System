@@ -1,7 +1,7 @@
 <?php
 session_start();
 error_reporting(0);
-include('includes/dbconnection.php');
+include('../includes/dbconnection.php');
 
 if(isset($_POST['login'])) 
   {
@@ -44,7 +44,7 @@ echo "<script>alert('Invalid Details');</script>";
 <html lang="en">
   <head>
   
-    <title>GIMT || Student Login Page</title>
+    <title>World Institute || Student Login Page</title>
     <link rel="stylesheet" href="vendors/simple-line-icons/css/simple-line-icons.css">
     <link rel="stylesheet" href="vendors/flag-icon-css/css/flag-icon.min.css">
     <link rel="stylesheet" href="vendors/css/vendor.bundle.base.css">
@@ -59,7 +59,7 @@ echo "<script>alert('Invalid Details');</script>";
             <div class="col-lg-4 mx-auto">
               <div class="auth-form-light text-left p-5">
                 <div class="brand-logo">
-                  <img src="images/logo.svg">GJIMT
+                  <img src="images/logo.svg">World Institute
                 </div>
                 <h4>Hello! let's get started</h4>
                 <h6 class="font-weight-light">Sign in to continue.</h6>

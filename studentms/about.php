@@ -6,7 +6,7 @@ include('includes/dbconnection.php');
 <!doctype html>
 <html>
 <head>
-<title>GJIMT || About Us Page</title>
+<title>World Institute || About Us Page</title>
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!--bootstrap-->
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
@@ -48,7 +48,7 @@ include('includes/dbconnection.php');
 	 <div class="container">
 		 <div class="about-info-grids">
 			 <div class="col-md-5 abt-pic">
-				 <img src="images/abt.jpg" class="img-responsive" alt="Image"/>
+				 <img src="images/abt.jfif" class="img-responsive" alt="Image"/>
 			 </div>
 			 <div class="col-md-7 abt-info-pic">
 			 	<?php

@@ -33,7 +33,7 @@ foreach($results as $row)
       <?php $cnt=$cnt+1;}} ?></div>
       <div class="col-md-3 footer-right">
         <h3></h3>
-        <p>&copy; 2023 SShayar. All rights reserved.</p>
+        <p>&copy; 2025 World Institute. All rights reserved.</p>
     <p>For more information, please read our <a href="/copyright-policy">Copyright Policy</a>.</p>
       </div>
       <div class="clearfix"> </div> 
@@ -42,7 +42,7 @@ foreach($results as $row)
 <div class="copyright">
     <div class="container">
       <div class="copyright-left">
-      <p> GJIMT MNAGMENT SYSTEM</p>
+      <p>World Institute STUDENT MNAGMENT SYSTEM</p>
       </div>
       <div class="copyright-right">
         <ul>

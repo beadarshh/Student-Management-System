@@ -6,7 +6,7 @@ include('includes/dbconnection.php');
 <!doctype html>
 <html>
 <head>
-<title>GJIMT || Home Page</title>
+<title>World Institute || Home Page</title>
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!--bootstrap-->
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">

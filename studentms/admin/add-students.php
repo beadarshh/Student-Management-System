@@ -1,7 +1,7 @@
 <?php
 session_start();
 error_reporting(0);
-include('includes/dbconnection.php');
+include('../includes/dbconnection.php');
 if (strlen($_SESSION['sturecmsaid']==0)) {
   header('location:logout.php');
   } else{
@@ -78,7 +78,7 @@ echo "<script>alert('Username or Student Id  already exist. Please try again');<
 <html lang="en">
   <head>
    
-    <title>GJIMT|| Add Students</title>
+    <title>World Institute|| Add Students</title>
     <!-- plugins:css -->
     <link rel="stylesheet" href="vendors/simple-line-icons/css/simple-line-icons.css">
     <link rel="stylesheet" href="vendors/flag-icon-css/css/flag-icon.min.css">

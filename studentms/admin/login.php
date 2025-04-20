@@ -1,7 +1,9 @@
 <?php
 session_start();
-error_reporting(0);
-include('includes/dbconnection.php');
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
+include('../includes/dbconnection.php');
+
 
 if(isset($_POST['login'])) 
   {
@@ -44,7 +46,7 @@ echo "<script>alert('Invalid Details');</script>";
 <html lang="en">
   <head>
   
-    <title>GJIMT|| Login Page</title>
+    <title>World Institute|| Login Page</title>
     <!-- plugins:css -->
     <link rel="stylesheet" href="vendors/simple-line-icons/css/simple-line-icons.css">
     <link rel="stylesheet" href="vendors/flag-icon-css/css/flag-icon.min.css">

@@ -1,7 +1,7 @@
 <?php
 session_start();
 error_reporting(0);
-include('includes/dbconnection.php');
+include('../includes/dbconnection.php');
 
 if (strlen($_SESSION['sturecmsstuid']==0)) {
   header('location:logout.php');
@@ -37,7 +37,7 @@ echo '<script>alert("Your current password is wrong")</script>';
 <html lang="en">
   <head>
    
-    <title>GJIMT || Student Change Password</title>
+    <title>World Institute || Student Change Password</title>
     <link rel="stylesheet" href="vendors/simple-line-icons/css/simple-line-icons.css">
     <link rel="stylesheet" href="vendors/flag-icon-css/css/flag-icon.min.css">
     <link rel="stylesheet" href="vendors/css/vendor.bundle.base.css">
